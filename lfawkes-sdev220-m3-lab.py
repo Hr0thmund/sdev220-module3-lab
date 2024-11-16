@@ -25,6 +25,7 @@ class Automobile(Vehicle):
 
     def __str__(self):
         return f"""
+        Vehicle type: {self.vehicle_type}
         Name: {self.name}
         Year: {self.year}
         Make: {self.make}
